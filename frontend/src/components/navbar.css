@@ -1,0 +1,109 @@
+.header__desktop {
+    display: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header__mobile {
+        display: none;
+    }
+    .header__desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2%;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(90px);
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+    .nav__desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .header__mobile {
+        display: none;
+    }
+
+    .header__desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2%;
+        position: fixed;
+        width: 100%;
+        height: 7.5rem;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(90px);
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+
+    .header__left {
+        width: 20rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__middle {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav__desktop a:hover {
+        color: var(--pink);
+    }
+
+    .header__right {
+        width: 20rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .search__form input  {
+        background: transparent;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: max-content;
+        width: 17rem;
+        border-bottom: 2px solid var(--secondary-color);
+        color: var(--secondary-color);
+        font-size: 2rem;
+    }
+
+    .search__form button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: max-content;
+        width: 2rem;
+        color: var(--secondary-color);
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+  }

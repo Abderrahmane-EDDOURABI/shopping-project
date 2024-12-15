@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+node_modules/
+dist/
+npm-debug.log*
+
+# Dépendances Node.js
+node_modules/
+
+# Build Vite (dossier généré après `vite build`)
+dist/
+
+# Fichiers d'environnement sensibles
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sauvegardes ou fichiers temporaires
+*.bak
+*.tmp
+
+# Configuration des IDEs/éditeurs (optionnel si tu utilises ces outils)
+.vscode/
+.idea/
+
+# Fichiers spécifiques au système
+.DS_Store  # macOS
+Thumbs.db  # Windows
